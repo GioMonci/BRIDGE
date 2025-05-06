@@ -21,15 +21,15 @@ Bridge is an edge‑AI powered structural health monitoring system designed for 
 1. **Data Acquisition**: Adafruit ISM330DHCX IMU collects tri‑axial acceleration at configurable sampling rates.
 2. **Edge Processing**: ESP32 runs a TensorFlow Lite Micro autoencoder to detect deviations from baseline behavior.
 3. **Anomaly Index Computation**: RMSE between incoming data and reconstructed baseline signals quantifies anomalies.
-4. **LoRaWAN Uplink**: Murata CMWX1ZZABZ module sends the anomaly index to a Raspberry Pi running ChirpStack.
+4. **LoRaWAN Uplink**: LoRa module sends the anomaly index to a Raspberry Pi running ChirpStack.
 5. **Data Ingestion**: Raspberry Pi forwards incoming metrics to InfluxDB hosted on AWS.
 6. **Visualization**: Grafana dashboards display real‑time and historical anomaly trends across multiple sensor nodes.
 
 ## 🛠️ Tech Stack
 
-* **Microcontroller & AI:** ESP32 + TensorFlow Lite Micro
-* **Sensor:** Adafruit ISM330DHCX accelerometer
-* **Wireless:** LoRaWAN (CMWX1ZZABZ) + ChirpStack on Raspberry Pi
+* **Microcontroller & AI:** ESP32 Feather V2 + TensorFlow Lite Micro
+* **Sensor:** Adafruit High Precision 9-DoF IMU FeatherWing (ISM330DHCX + LIS3MDL)
+* **Wireless:** Adafruit LoRa Radio FeatherWing - RFM95W 900 MHz + ChirpStack on Raspberry Pi
 * **Database:** InfluxDB (AWS)
 * **Dashboard:** Grafana
 
