@@ -216,7 +216,7 @@ void setupAccelerometer() {
   }
   accel.setAccelRange(LSM6DS_ACCEL_RANGE_2_G);  // ±2g range
   accel.setAccelDataRate(LSM6DS_RATE_104_HZ);   // ~104 Hz output data rate
-  Serial.println(F("Accel @ ~104 Hz"));
+  Serial.println(F("Accel 104Hz"));
 }
 
 // ─── Load and Prepare the TensorFlow Lite Model ─────────────────────────────────
