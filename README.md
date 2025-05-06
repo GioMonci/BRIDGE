@@ -25,7 +25,7 @@ Bridge is an edge‑AI powered structural health monitoring system designed for 
 5. **Data Ingestion**: Raspberry Pi forwards incoming metrics to InfluxDB hosted on AWS.
 6. **Visualization**: Grafana dashboards display real‑time and historical anomaly trends across multiple sensor nodes.
 
-## 🛠️ Tech Stack
+## 🛠️ QUICK Tech Stack
 
 * **Microcontroller & AI:** ESP32 Feather V2 + TensorFlow Lite Micro
 * **Sensor:** Adafruit High Precision 9-DoF IMU FeatherWing (ISM330DHCX + LIS3MDL)
