@@ -12,11 +12,3 @@ The goal is to establish a low-power, long-range wireless communication system f
  - Adafruit LoRa Radio FeatherWing - RFM95W 900 MHz
  - Raspberry Pi
 
-## Improvements Complete
- - Send Acceleration Data to Remote Raspberry Pi using LoRa
- - Merge existing Accel and LoRa code
- - Cleaned up redundant code
- - Sending 48 bytes
-
-## Notes / TO-DO:
-  - Make send rates more efficient and stable
