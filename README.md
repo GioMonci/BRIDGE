@@ -4,7 +4,7 @@
 
 **Sponsor:** Dr. Ali Ozdagli
 
-![BRIDGE](Bridge_Fall2023–Spring2024/Documentation/images/BRIDGE%20Senior%20Project%20Poster%20.png)
+![BRIDGE](Bridge_Fall2024–Spring2025/Documentation/images/BRIDGE%20Senior%20Project%20Poster%20.png)
 
 ## 📖 Project Overview
 
